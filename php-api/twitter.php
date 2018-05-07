@@ -1,3 +1,6 @@
+<!-- followed ibm watson documentation to for this folder and had prior knowledge of php -->
+
+
 <?php
 
 header('Access-Control-Allow-Origin: *');
@@ -8,10 +11,11 @@ require "vendor/autoload.php";
 use Abraham\TwitterOAuth\TwitterOAuth;
 
 
-$access_token = "REDACTED";
-$access_token_secret = "REDACTED";
+$access_token = "107773247-Nj0I7kFrLxSvr7QDFI8l9YYS6F0sFTqm9zrd5e0T";
+$access_token_secret = "chkBYb9rpuVKryIm9bp9WNl1KydxP0ZC3oKE10jwbSLuA";
 
-$connection = new TwitterOAuth("REDACTED", "REDACTED", $access_token, $access_token_secret);
+$connection = new TwitterOAuth("tLKq3bYIEcu4BRF9nXjGM94OV", "ndTTZdVtkeaKvfnpak5dJkLuznDfFiGYoOXVZDiFnGRNOr6BVt
+", $access_token, $access_token_secret);
 
 
 if (isset($_POST["twitter-screen-name"])) {

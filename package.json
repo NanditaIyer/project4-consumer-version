@@ -1,5 +1,5 @@
 {
-  "name": "personality-traits",
+  "name": "THINKETH",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -7,7 +7,7 @@
     "echarts": "^3.8.5",
     "echarts-for-react": "^2.0.1",
     "personality-text-summary": "^2.1.6",
-    "react": "^16.2.0",
+    "react": "^16.3.2",
     "react-animations": "^1.0.0",
     "react-dom": "^16.2.0",
     "react-fontawesome": "^1.6.1",
@@ -15,6 +15,7 @@
     "reactstrap": "^5.0.0-alpha.4"
   },
   "devDependencies": {
+    "install-peers": "^1.0.2",
     "react-scripts": "1.0.17"
   },
   "scripts": {
@@ -22,5 +23,10 @@
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
-  }
+  },
+
+  "main": "index.js",
+  "repository": "https://github.com/NanditaIyer/project4-consumer-version.git",
+  "author": "NaN <nandita27iyer@gmail.com>",
+  "license": "MIT"
 }

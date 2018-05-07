@@ -24,9 +24,7 @@ class MainMenu extends Component {
         <Navbar color="faded" dark expand="md">
           <Link className="navbar-brand" to="/">
             <img className="icon-back" src={backIcon} alt="Back to homepage" />
-            &lsquo;I told my ther<span className="ai">
-              a
-            </span>p<span className="ai">i</span>st about you...
+            Thinketh
           </Link>
           <NavbarToggler onClick={this.toggle} />
           <Collapse isOpen={this.state.isOpen} navbar>

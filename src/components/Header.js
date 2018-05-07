@@ -6,10 +6,13 @@ class Header extends Component {
       <Jumbotron className="app-banner hidden-load animated fadeIn">
         <Container>
           <h1 className="display-3 banner-title">
-            &lsquo;I told my ther<span className="ai">A</span>p<span className="ai">
-              I
-            </span>st about you...
-          </h1>
+            THINKETH...
+            </h1>
+            <p>  </p>
+            <p className="quote">“As a man thinketh in his heart, so shall he be”
+― James Allen, As a Man Thinketh</p>
+<p> </p>
+<p> </p>
           <p className="lead">
             Gain insight into how and why people think, act, and feel the way
             they do. The underlying AI applies linguistic analytics and
@@ -20,7 +23,7 @@ class Header extends Component {
             <small>
               Powered by <a href="https://www.ibm.com/watson">IBM Watson</a>
               {""} / Developed by {""}
-              <a href="https://github.com/shahabqamar">Shahab Qamar</a>
+              <a href="https://github.com/NanditaIyer">Nandita Iyer</a>
             </small>
           </p>
         </Container>
